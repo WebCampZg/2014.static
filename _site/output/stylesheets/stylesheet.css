@@ -1559,19 +1559,25 @@ ul.avatar-desc-meta-list > li:last-child {
   border-bottom: 0;
 }
 
-/* line 957, content/stylesheets/stylesheet.scss */
+/* line 959, content/stylesheets/stylesheet.scss */
+.workshops-wrap ul.avatar-desc-meta-list li:first-child {
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  padding-top: 1.6em !important;
+}
+
+/* line 966, content/stylesheets/stylesheet.scss */
 .avatar-desc-meta {
   padding-bottom: 1.1em;
   overflow: hidden;
 }
-/* line 961, content/stylesheets/stylesheet.scss */
+/* line 970, content/stylesheets/stylesheet.scss */
 .avatar-desc-meta .avatar {
   float: right;
   margin: 22px 22px 30px 30px;
   display: block;
 }
 @media (min-width: 601px) and (max-width: 960px) {
-  /* line 961, content/stylesheets/stylesheet.scss */
+  /* line 970, content/stylesheets/stylesheet.scss */
   .avatar-desc-meta .avatar {
     width: 22%;
     margin: 22px 7% 0 25px;
@@ -1579,14 +1585,14 @@ ul.avatar-desc-meta-list > li:last-child {
   }
 }
 @media (min-width: 961px) {
-  /* line 961, content/stylesheets/stylesheet.scss */
+  /* line 970, content/stylesheets/stylesheet.scss */
   .avatar-desc-meta .avatar {
     width: 20%;
     margin: 22px 5% 0 25px;
     float: left;
   }
 }
-/* line 978, content/stylesheets/stylesheet.scss */
+/* line 987, content/stylesheets/stylesheet.scss */
 .avatar-desc-meta .avatar .img {
   position: relative;
   width: 120px;
@@ -1604,13 +1610,13 @@ ul.avatar-desc-meta-list > li:last-child {
   border-radius: 20px;
 }
 @media (min-width: 961px) {
-  /* line 978, content/stylesheets/stylesheet.scss */
+  /* line 987, content/stylesheets/stylesheet.scss */
   .avatar-desc-meta .avatar .img {
     height: 150px;
     width: 150px;
   }
 }
-/* line 991, content/stylesheets/stylesheet.scss */
+/* line 1000, content/stylesheets/stylesheet.scss */
 .avatar-desc-meta .avatar .img img {
   position: absolute;
   top: -75px;
@@ -1622,31 +1628,31 @@ ul.avatar-desc-meta-list > li:last-child {
   -o-transform: rotate(-45deg) scale(0.7);
   transform: rotate(-45deg) scale(0.7);
 }
-/* line 1002, content/stylesheets/stylesheet.scss */
+/* line 1011, content/stylesheets/stylesheet.scss */
 .avatar-desc-meta .desc {
   width: 100%;
 }
 @media (min-width: 601px) and (max-width: 960px) {
-  /* line 1002, content/stylesheets/stylesheet.scss */
+  /* line 1011, content/stylesheets/stylesheet.scss */
   .avatar-desc-meta .desc {
     width: 66%;
     float: left;
   }
 }
 @media (min-width: 961px) {
-  /* line 1002, content/stylesheets/stylesheet.scss */
+  /* line 1011, content/stylesheets/stylesheet.scss */
   .avatar-desc-meta .desc {
     width: 45%;
     margin-right: 5%;
     float: left;
   }
 }
-/* line 1016, content/stylesheets/stylesheet.scss */
+/* line 1025, content/stylesheets/stylesheet.scss */
 .avatar-desc-meta .desc h4 {
   margin-top: 1.5em;
 }
 @media (min-width: 601px) and (max-width: 960px) {
-  /* line 1016, content/stylesheets/stylesheet.scss */
+  /* line 1025, content/stylesheets/stylesheet.scss */
   .avatar-desc-meta .desc h4 {
     margin-top: 0 !important;
     margin-bottom: 1.25em;
@@ -1654,24 +1660,24 @@ ul.avatar-desc-meta-list > li:last-child {
   }
 }
 @media (min-width: 961px) {
-  /* line 1016, content/stylesheets/stylesheet.scss */
+  /* line 1025, content/stylesheets/stylesheet.scss */
   .avatar-desc-meta .desc h4 {
     margin-top: 0 !important;
     margin-bottom: 1.25em;
     font-size: 1.75em;
   }
 }
-/* line 1031, content/stylesheets/stylesheet.scss */
+/* line 1040, content/stylesheets/stylesheet.scss */
 .avatar-desc-meta .desc h4 a {
   color: #f8d800;
   text-decoration: none;
 }
-/* line 1038, content/stylesheets/stylesheet.scss */
+/* line 1047, content/stylesheets/stylesheet.scss */
 .avatar-desc-meta .meta {
   padding-top: 2.2em;
 }
 @media (min-width: 601px) and (max-width: 960px) {
-  /* line 1038, content/stylesheets/stylesheet.scss */
+  /* line 1047, content/stylesheets/stylesheet.scss */
   .avatar-desc-meta .meta {
     width: auto;
     margin-left: 33%;
@@ -1680,25 +1686,25 @@ ul.avatar-desc-meta-list > li:last-child {
   }
 }
 @media (min-width: 961px) {
-  /* line 1038, content/stylesheets/stylesheet.scss */
+  /* line 1047, content/stylesheets/stylesheet.scss */
   .avatar-desc-meta .meta {
     width: 22%;
     padding-top: 3.45em;
     float: left;
   }
 }
-/* line 1054, content/stylesheets/stylesheet.scss */
+/* line 1063, content/stylesheets/stylesheet.scss */
 .avatar-desc-meta .meta dt {
   font-family: Share, Helvetica, Arial, sans-serif;
   font-weight: 400;
   font-size: 1.25em;
 }
-/* line 1060, content/stylesheets/stylesheet.scss */
+/* line 1069, content/stylesheets/stylesheet.scss */
 .avatar-desc-meta .meta dd {
   margin-left: 0 !important;
   margin-bottom: 0.85em;
 }
-/* line 1064, content/stylesheets/stylesheet.scss */
+/* line 1073, content/stylesheets/stylesheet.scss */
 .avatar-desc-meta .meta dd.link {
   overflow: hidden;
   color: #97C0DF;
@@ -1706,20 +1712,20 @@ ul.avatar-desc-meta-list > li:last-child {
   white-space: nowrap;
 }
 
-/* line 1076, content/stylesheets/stylesheet.scss */
+/* line 1085, content/stylesheets/stylesheet.scss */
 ul.menu {
   list-style: none;
   padding: 0;
   margin: 50px -1px 30px 0;
 }
-/* line 1080, content/stylesheets/stylesheet.scss */
+/* line 1089, content/stylesheets/stylesheet.scss */
 ul.menu li {
   padding: 0;
   margin: 0;
   float: left;
   width: 20%;
 }
-/* line 1085, content/stylesheets/stylesheet.scss */
+/* line 1094, content/stylesheets/stylesheet.scss */
 ul.menu li a {
   display: block;
   height: 50px;
@@ -1732,33 +1738,33 @@ ul.menu li a {
   font-size: 1.3em;
   margin: 0 1px 0 0;
 }
-/* line 1096, content/stylesheets/stylesheet.scss */
+/* line 1105, content/stylesheets/stylesheet.scss */
 ul.menu li a:hover, ul.menu li a.active {
   color: black;
   background: #f8d800;
 }
 
-/* line 1104, content/stylesheets/stylesheet.scss */
+/* line 1113, content/stylesheets/stylesheet.scss */
 .small-menu {
   width: 100%;
   margin: -30px 20px 0 0;
 }
 @media screen and (min-width: 800px) {
-  /* line 1104, content/stylesheets/stylesheet.scss */
+  /* line 1113, content/stylesheets/stylesheet.scss */
   .small-menu {
     width: 68.2%;
     float: right;
     margin-top: -105px;
   }
 }
-/* line 1114, content/stylesheets/stylesheet.scss */
+/* line 1123, content/stylesheets/stylesheet.scss */
 .small-menu ul.menu li a {
   font-size: 1.2em;
   height: 40px;
   line-height: 40px;
   background: rgba(0, 0, 0, 0.3);
 }
-/* line 1119, content/stylesheets/stylesheet.scss */
+/* line 1128, content/stylesheets/stylesheet.scss */
 .small-menu ul.menu li a:hover, .small-menu ul.menu li a.active {
   color: black;
   background: #f8d800;
@@ -1773,7 +1779,7 @@ ul.menu li a:hover, ul.menu li a.active {
  * 2. The use of `table` rather than `block` is only necessary if using
  *    `:before` to contain the top-margins of child elements.
  */
-/* line 1136, content/stylesheets/stylesheet.scss */
+/* line 1145, content/stylesheets/stylesheet.scss */
 .cf:before,
 .cf:after {
   content: " ";
@@ -1782,7 +1788,7 @@ ul.menu li a:hover, ul.menu li a.active {
   /* 2 */
 }
 
-/* line 1141, content/stylesheets/stylesheet.scss */
+/* line 1150, content/stylesheets/stylesheet.scss */
 .cf:after {
   clear: both;
 }
@@ -1791,7 +1797,7 @@ ul.menu li a:hover, ul.menu li a.active {
  * For IE 6/7 only
  * Include this rule to trigger hasLayout and contain floats.
  */
-/* line 1149, content/stylesheets/stylesheet.scss */
+/* line 1158, content/stylesheets/stylesheet.scss */
 .cf {
   *zoom: 1;
 }
