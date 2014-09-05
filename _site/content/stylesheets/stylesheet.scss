@@ -954,6 +954,15 @@ ul.avatar-desc-meta-list {
   }
 }
 
+.workshops-wrap {
+  ul.avatar-desc-meta-list {
+    li:first-child {
+      border-top: 1px solid rgba(255, 255, 255, 0.1);
+      margin-top: 1.6em;
+    }
+  }
+}
+
 .avatar-desc-meta {
   padding-bottom: 1.1em;
   overflow: hidden;

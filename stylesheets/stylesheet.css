@@ -1553,6 +1553,10 @@ ul.avatar-desc-meta-list > li {
   list-style: none;
   text-overflow: ellipsis;
 }
+.workshops-wrap ul.avatar-desc-meta-list > li:first-child {
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  margin-top: 1.6em;
+}
 /* line 950, content/stylesheets/stylesheet.scss */
 ul.avatar-desc-meta-list > li:last-child {
   margin-bottom: 0;
