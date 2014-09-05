@@ -8,7 +8,7 @@ layout: visitors
     All workshops are being held on <b>Friday, October 3rd</b>, at the HGK (Croatian Chamber of Commerce) building, Nova Cesta 3-7, Zagreb.
     <br><br>
     Tickets will be available starting Thursday, September 11th @ 10:00, through <a href="https://www.entrio.hr/event/webcamp-workshops-2014-1700">Entrio.hr</a>
-     
+
   </p>
   <ul class="avatar-desc-meta-list cf">
     <% workshops.each do |workshop| %>
@@ -28,9 +28,9 @@ layout: visitors
         </div>
         <div class="meta cf">
           <dl>
-            <dt>Speaker</dt>
+            <dt>Author</dt>
             <dd class="link"><a href="<%= workshop.identifier %>"><%= workshop[:name] %> </a></dd>
-            <dt>Time</dt>
+            <dt>Date/Time</dt>
             <dd><%= workshop[:time] %></dd>
             <dt>Duration</dt>
             <dd><%= workshop[:duration] %></dd>
@@ -39,7 +39,7 @@ layout: visitors
             <dt>Level</dt>
             <dd><%= workshop[:level] %></dd>
             <dt>Price</dt>
-            <dd><%= workshop[:price] %></dd>
+            <dd><a href="https://www.entrio.hr/event/webcamp-workshops-2014-1700"><%= workshop[:price] %></a></dd>
           </dl>
         </div>
       </div>
