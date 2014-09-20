@@ -152,10 +152,10 @@ section.sponsors {
   .lvl-1 {
     border-bottom:1px dashed #999;
 
-    a {
+    & > a {
         display:inline-block;
         width:400px;
-        height:150px;
+        height:180px;
         text-align: center;
         text-decoration: none;
 
@@ -169,6 +169,26 @@ section.sponsors {
             margin:0px 25px 0px 50px;
         }
         &.second {
+        }
+    }
+    & > div {
+        display:inline-block;
+        width:400px;
+        height:180px;
+        text-align: center;
+        text-decoration: none;
+        padding-left:80px;
+
+        & > a {
+            margin:0;
+            padding:0;
+            float:left;
+            img {
+                margin:0;
+                padding:0;
+                clear:right;
+                display:block;
+            }
         }
     }
   }
@@ -211,13 +231,15 @@ section.sponsors {
 }
 .sponsors-lvl-1 {
     background-color: #fff;
-    border:2px solid #666;
     padding:15px 0px;
+    height:250px;
+    border-radius:13px;
 
-    a {
+    & > a {
+        float:left;
         display:inline-block;
         width:400px;
-        height:200px;
+        height:220px;
         text-align: center;
         text-decoration: none;
 
@@ -233,11 +255,35 @@ section.sponsors {
         &.second {
         }
     }
+    & > div {
+        float:left;
+        display:inline-block;
+        width:400px;
+        height:220px;
+        text-align: center;
+        text-decoration: none;
+        padding-left:50px;
+
+        a {
+            float:left;
+            display:inline-block;
+            text-align: center;
+            text-decoration: none;
+            margin:0;
+            padding:0;
+
+            img {
+                margin:0;
+                padding:0;
+                display:block;
+            }
+        }
+    }
 }
 .sponsors-lvl-2 {
     background-color: #fff;
-    border:2px solid #666;
     padding:15px 0px;
+    border-radius:13px;
 
     a {
         display:inline-block;
@@ -261,9 +307,9 @@ section.sponsors {
 }
 .sponsors-lvl-3 {
     background-color: #fff;
-    border:2px solid #666;
     margin:0;
     padding:0;
+    border-radius:13px;
 
     a {
         margin:10px;
