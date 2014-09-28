@@ -125,6 +125,39 @@ section.content {
   }
 }
 
+.sponsor-page {
+    padding-top:10px;
+
+    .info {
+        position:relative;
+        height:140px;
+
+        h1 {
+            font-family: Share, Helvetica, Arial, sans-serif;
+            font-weight: bold;
+            color: #f8d800;
+            margin: 0;
+            font-size: 3em;
+        }
+
+        a {
+            display:inline-block;
+            margin-top:5px;
+        }
+
+        img {
+            position:absolute;
+            top:5px;
+            right:5px;
+            background-color: #fff;
+            padding:15px 30px;
+            border-radius:13px;
+        }
+        
+
+    }
+}
+
 section.sponsors {
   background: url(../images/organizersbg.png);
   background-repeat: repeat-x;
