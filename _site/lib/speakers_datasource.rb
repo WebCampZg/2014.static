@@ -13,9 +13,9 @@ module Nanoc3::DataSources
         require 'redcarpet'
 
         # Parse as JSON
-        # 
+        #
         markdown = Redcarpet::Markdown.new(Redcarpet::Render::HTML)
-        
+
         raw_items = JSON.parse(File.read('speakers/speakers.json'))
 
         # Convert to items
@@ -29,6 +29,8 @@ module Nanoc3::DataSources
             short_abstract: markdown.render(raw_item['short_abstract']),
             long_abstract: markdown.render(raw_item['long_abstract']),
             title: raw_item['title'],
+            video: raw_item['video'],
+            slides: raw_item['slides'],
             image: path,
             name: raw_item['speaker']['name'],
             twitter: raw_item['speaker']['twitter'],

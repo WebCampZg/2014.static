@@ -14,7 +14,7 @@
             "usec": 0
         },
         "row_id": 102,
-        "video": "https://www.youtube.com/watch?v=O-WPa_6xjCw",
+        "video": "O-WPa_6xjCw",
         "slides": null,
         "speaker": {
             "_id": {
@@ -44,7 +44,7 @@
             "usec": 0
         },
         "row_id": 97,
-        "video": "https://www.youtube.com/watch?v=Z_o5eaNZhZQ",
+        "video": "Z_o5eaNZhZQ",
         "slides": "https://denibertovic.com/talks/supercharge-development-env-using-docker/",
         "speaker": {
             "_id": {
@@ -75,7 +75,7 @@
             "usec": 0
         },
         "row_id": 95,
-        "video": "https://www.youtube.com/watch?v=Fwcow-HoX3g",
+        "video": "Fwcow-HoX3g",
         "slides": null,
         "speaker": {
             "_id": {
@@ -105,7 +105,7 @@
         "row_id": 56,
         "long_abstract": "This simulator was developed for an EU research project: AIRobots. \nHow do you tie the real drone control system, based on Simulink, to Blender, in order to create a realistic 3D simulation of the control behaviour? Can you really use the physics engine of Blender to compute the behaviour? Where did we stop? What did we achieve? During this talk, I'll walk you through the tools and libraries required for this project, its many pitfalls and its successes. ",
         "status": "accepted",
-        "video": "https://www.youtube.com/watch?v=hDeiOf2SYCA",
+        "video": "hDeiOf2SYCA",
         "slides": null,
         "speaker": {
             "_id": {
@@ -135,7 +135,7 @@
             "usec": 0
         },
         "row_id": 65,
-        "video": "https://www.youtube.com/watch?v=h85Vk0OazDY",
+        "video": "h85Vk0OazDY",
         "slides": null,
         "speaker": {
             "_id": {
@@ -165,7 +165,7 @@
         "row_id": 25,
         "long_abstract": "Currently, REST APIs give us little control over the structure of data that is to be returned. We can fetch a list of items, for example articles, but we don't have control over embedding nested objects, such as comments, or filtering and ordering results by certain attributes. With standardized query logic passed via URL params, clients are able to shape results according to their needs.\n\nThe example query below would result in a list of articles ordered by creation date, whose title contains \"REST\" with embedded author objects:\n\n```\nGET /articles?title=%REST%&embed=author&order=created_at:desc\n```\n\nThis talk will give a proposal of a standardized query algebra, which various famous APIs already partially implement using differing syntaxes and feature subsets.",
         "status": "accepted",
-        "video": "https://www.youtube.com/watch?v=iFxe9ywDirc",
+        "video": "iFxe9ywDirc",
         "slides": null,
         "speaker": {
             "_id": {
@@ -255,7 +255,7 @@
         "row_id": 32,
         "long_abstract": "Many developers know the pain of setting up a development machine and share the setup with the team - Putting the same folders in the same place, keeping configurations in sync and managing external dependencies. Vagrant solves this problem by creating a development environment inside a virtual machine and making it easy to share with other developers. \nWithin this talk, I'll take the audience on a trip from a time where everybody would install stuff on localhost until the software starts working to a land where the environment one develops in mirrors the production environment as closely as possible without changing the laptop/pc of the developer. I'll talk about devops and configuration management briefly and show how one can get started with vagrant.\nAfter this talk, the audience knows what problems vagrant solves and how to get started.",
         "status": "accepted",
-        "video": "https://www.youtube.com/watch?v=VPSBFh418iM",
+        "video": "VPSBFh418iM",
         "slides": "https://speakerdeck.com/sgoettschkes/vagrant-to-the-rescue-1",
         "speaker": {
             "_id": {
@@ -285,7 +285,7 @@
         "row_id": 27,
         "long_abstract": "Apache Cordova is just a container for your HTML5/JS/CSS app. It works best with ajax driven single page applications. It's actually very easy to start creating apps for Android, iPhone and others and put them on their respective app stores. However its not only gold what what shines: there are also drawbacks compared to native applications. This talk will show you how you can build an easy app and then explains a few problems you need to solve, when the first excitement is gone.",
         "status": "accepted",
-        "video": "https://www.youtube.com/watch?v=LB_2X9BXQR4",
+        "video": "LB_2X9BXQR4",
         "slides": "http://www.slideshare.net/christiangrobmeier/2014-10cordovawebcampzagreb",
         "speaker": {
             "_id": {
@@ -315,7 +315,7 @@
         "row_id": 39,
         "long_abstract": "A short introduction on the way Google tests it's products, with a short overview of the development process and what tools we use.\n\nThis will be followed by a more detailed presentation of how automated testing is performed during development. This part of the presentation will especially focus on use of code coverage measurement and how we use code coverage to improve code quality and engineering productivity.\n\nIn the end, I will present the vast amount of coverage data, spanning more than 100.000 commits, we have collected and some more widely applicable conclusions we have reached.\n",
         "status": "accepted",
-        "video": "https://www.youtube.com/watch?v=q7ZXHZ0_CMM",
+        "video": "q7ZXHZ0_CMM",
         "slides": null,
         "speaker": {
             "_id": {
@@ -345,7 +345,7 @@
         "row_id": 47,
         "long_abstract": "Imagine you're dealing with social media networks. You're fetching a status from Facebook and building an entity of your own out of it. After a while, a user of your system wants to edit that entity, for example, assign some meta-data to it. Meanwhile, you decide that a tweet coming in from Twitter represents essentially the same entity as that Facebook post you already have, and you want to modify your entity with this new information. With all these differing and concurrent data streams, how do you know who updated what, and what's the real state of data?\n\nIn this talk, an abstraction layer that was built to solve the described problem will be presented. It's called an append-only architecture. It stores each new data atom separately and incrementally builds entities as new atoms come in. Consequently, it enforces consistency and provides accountability by replaying all data mutations and verifying that the data should indeed have the state that it has.",
         "status": "accepted",
-        "video": "https://www.youtube.com/watch?v=zotJM2ySquM",
+        "video": "zotJM2ySquM",
         "slides": null,
         "speaker": {
             "_id": {
@@ -375,7 +375,7 @@
         "row_id": 8,
         "long_abstract": "This talk will present a medium-level design of the live betting system I've built for a sport betting company. The aim is to illustrate how can we use Elixir/Erlang powered actors to push frequent updates to a large number of connected users in real-time.\n\nAssuming an audience of experienced backend developers, the talk will provide a bare minimum of theory, and then focus on presenting various decisions made in the system, starting from accepting the data from the external provider, reconciling it with internal database, categorizing it, and pushing it to end-users (browsers).\n\nAfter the talk, the audience should have a feeling on how to reason about a complex system relying on the concept of actors.\n\nThis will be a highly technical talk. Expect a lot of diagrams with an occasional code snippet in Elixir.",
         "status": "accepted",
-        "video": "https://www.youtube.com/watch?v=g5JJZuxrW_k",
+        "video": "g5JJZuxrW_k",
         "slides": null,
         "speaker": {
             "_id": {
@@ -405,7 +405,7 @@
             "usec": 0
         },
         "row_id": 101,
-        "video": "https://www.youtube.com/watch?v=EMr2MegbQRc",
+        "video": "EMr2MegbQRc",
         "slides": "https://speakerdeck.com/blackduke/smart-first-phones-later",
         "speaker": {
             "_id": {
@@ -435,7 +435,7 @@
             "usec": 0
         },
         "row_id": 60,
-        "video": "https://www.youtube.com/watch?v=EzX5E_RMHRQ",
+        "video": "EzX5E_RMHRQ",
         "slides": null,
         "speaker": {
             "_id": {
@@ -465,7 +465,7 @@
             "usec": 0
         },
         "row_id": 83,
-        "video": "https://www.youtube.com/watch?v=zCCwkX0Q3WE",
+        "video": "zCCwkX0Q3WE",
         "slides": "https://speakerdeck.com/allixsenos/bad-ideas-and-worst-practices-webcamp-zagreb",
         "speaker": {
             "_id": {
@@ -495,7 +495,7 @@
         "row_id": 9,
         "long_abstract": "Purpose of this talk is for business owners, project leaders and developers (and all alike) to see the other side of design, beyond what is shown in the presentation slides once the design process is at its end.\n\nAnd also, to see what happens (or will happen) to the creative mind they employ once they force them to add a golden crown on top of the milking cow in the election posters. (Yes! That happend!)\n\nTalk is based on 10 year experience in graphic, web and start-up industry, of which better part was being Don Quixote in defense of best practices, and why it was time to stop.\n\nDevelopers need to trust in designers - not be clients from hell.",
         "status": "accepted",
-        "video": "https://www.youtube.com/watch?v=1Nqx4DXIHZw",
+        "video": "1Nqx4DXIHZw",
         "slides": "http://www.slideshare.net/UniverseCEO/your-designer-is-not-your-slut",
         "speaker": {
             "_id": {
@@ -555,7 +555,7 @@
         "row_id": 23,
         "long_abstract": "It's well known that JavaScript wasn't designed to be anything more than a weapon in the Browser Wars, adding a layer of interactivity to the pages of the ancient Web by means of writing very short scripts.\n\nWhen such a language grows big and starts to be used to implement complex systems we face a lot of problems. To name a few — defensive programming, non-existent type system, fragile application architecture. It also yields a bigger problem of programmers not being able to write expressive and safe code.\n\nIn this talk we examine the modern approaches to fixing JavaScript. Our goal is to find a solution that allows us to write expressively and to get strong guarantees for applications we build.",
         "status": "accepted",
-        "video": "https://www.youtube.com/watch?v=oTheCOuWGic",
+        "video": "oTheCOuWGic",
         "slides": null,
         "speaker": {
             "_id": {
@@ -585,7 +585,7 @@
         "row_id": 17,
         "long_abstract": "It would be nice if devops could sit down with web applications and discuss their feelings over cup of coffee. Instead, they have to jump through hoops and figure out what is going on by using tools such as StatsD/Graphite, Nagios, Cacti, New relic and many others. Successful data collection is only half of the solution. Presenting real time data in a way that it intuitively shows you that something is different and aiding you in pinpointing problem makes up other half. \nTalk will focus on importance of monitoring web applications and give advice on how to organize your dashboard for quick reactions. Find out tips and tricks as well as what impact had running a dashboard monitor on overall project performance.",
         "status": "accepted",
-        "video": "https://www.youtube.com/watch?v=4_cdHL1ct1s",
+        "video": "4_cdHL1ct1s",
         "slides": "http://luka.muzinic.net/talks/dashboards-for-devops-and-other-web-folks",
         "speaker": {
             "_id": {
@@ -615,7 +615,7 @@
             "usec": 0
         },
         "row_id": 67,
-        "video": "https://www.youtube.com/watch?v=BsRP7UAkT5A",
+        "video": "BsRP7UAkT5A",
         "slides": "https://slides.com/filippetkovski/abstracting-the-backend/",
         "speaker": {
             "_id": {
@@ -645,7 +645,7 @@
             "usec": 0
         },
         "row_id": 66,
-        "video": "https://www.youtube.com/watch?v=LN64vf4zMok",
+        "video": "LN64vf4zMok",
         "slides": "http://www.slideshare.net/premshree_pillai/building-a-scalable-system-for-shipping-tracking",
         "speaker": {
             "_id": {
@@ -675,7 +675,7 @@
         "row_id": 22,
         "long_abstract": "Web Components are the latest buzz around the web. It allows developers to define widgets, encapsulate functionality and allow easy-reuse.",
         "status": "accepted",
-        "video": "https://www.youtube.com/watch?v=d899ihXSI78",
+        "video": "d899ihXSI78",
         "slides": "https://slides.com/tamaspiros/web-components-ftw",
         "speaker": {
             "_id": {
@@ -705,7 +705,7 @@
         "row_id": 5,
         "long_abstract": "Lisp, the influential second-oldest high-level programming language, has been called \"the most intelligent way to misuse a computer\" and \"the greatest single programming language ever designed\". Despite the prevalence of ALGOL-inspired languages, Lisp and its ideas have survived both in academia and industry through generations of programmers, although its arcane origins and seemingly odd syntax weren't always too attractive to newcomers.\n\nClojure is a recent dialect of Lisp with JVM, CLR and JavaScript as its primary targets. By combining the popularity of its well-established target platforms with a focus on functional programming and immutability, it quickly rose to fame as a modern, usable, robust general-purpose programming language.\n\nIn this talk, we'll quickly introduce Clojure and its ecosystem (why?), go through a couple of use-cases including our first-hand experience with Clojure at Neutrino (when?), and see how it fits into existing systems and plays with others (how?).\n\n(with-conference {:name \"WebCampZG 2014\"}\n    (praise \"McCarthy\"))",
         "status": "accepted",
-        "video": "https://www.youtube.com/watch?v=MejBWga38F4",
+        "video": "MejBWga38F4",
         "slides": null,
         "speaker": {
             "_id": {
@@ -735,7 +735,7 @@
             "usec": 0
         },
         "row_id": 80,
-        "video": "https://www.youtube.com/watch?v=aybGkN_gXTc",
+        "video": "aybGkN_gXTc",
         "slides": "http://loralollipop.blogspot.com/2014/10/webcamp-zagreb-2014.html",
         "speaker": {
             "_id": {
@@ -765,7 +765,7 @@
             "usec": 0
         },
         "row_id": 69,
-        "video": "https://www.youtube.com/watch?v=5TIhUyI5jo8",
+        "video": "5TIhUyI5jo8",
         "slides": null,
         "speaker": {
             "_id": {
@@ -795,7 +795,7 @@
             "usec": 0
         },
         "row_id": 82,
-        "video": "https://www.youtube.com/watch?v=_1xc_baKXX0",
+        "video": "_1xc_baKXX0",
         "slides": null,
         "speaker": {
             "_id": {
@@ -825,7 +825,7 @@
         "row_id": 51,
         "long_abstract": "The talk is about front-end web development of a larger web-applications within a medium-sized development team.\nThe emphasis will be on importance of coding style, naming conventions, keeping your codebase small and clean, code reviews, continuous measurements, code cleanup, (automated) visual testing, etc.\nMethods, tools and workflow will be mentioned.\nAlso, an interesting novel approach towards continuous visual regression testing will be presented, currently with a working name WizEye - an automation tool that notifies you whenever your visual design gets broken.",
         "status": "accepted",
-        "video": "https://www.youtube.com/watch?v=s-Tn1BYBqMo",
+        "video": "s-Tn1BYBqMo",
         "slides": "http://galjot.si/talks/front-end-h8%23f00/#/",
         "speaker": {
             "_id": {
@@ -855,7 +855,7 @@
             "usec": 0
         },
         "row_id": 71,
-        "video": "https://www.youtube.com/watch?v=_syWPVY-PYM",
+        "video": "_syWPVY-PYM",
         "slides": null,
         "speaker": {
             "_id": {
@@ -885,7 +885,7 @@
         "row_id": 15,
         "long_abstract": "You know that old saying \"Right tool for the right job\"? I want to show you some jobs in which Redis is that right tool. We'll talk about some real life examples of how can Redis speed up your application and some of it's not so obvious usages.\n\nThere will be mentioned some interesting things about Redis as well as horizontal and vertical scaling. You want to reduce Redis network traffic and speed up whole application? No problem, just write Lua scripts that you can run inside of Redis. At some point you'll have to debug those Lua scripts and I'll show you one interesting way of how to do it.",
         "status": "accepted",
-        "video": "https://www.youtube.com/watch?v=u_z0knfXjdM",
+        "video": "u_z0knfXjdM",
         "slides": "http://msuflaj.net/slides/wczg-2014/",
         "speaker": {
             "_id": {
@@ -915,7 +915,7 @@
             "usec": 0
         },
         "row_id": 74,
-        "video": "https://www.youtube.com/watch?v=7GriInmbe98",
+        "video": "7GriInmbe98",
         "slides": "http://www.slideshare.net/msvaljek/cassandra-web-scale-no-sql-data-platform",
         "speaker": {
             "_id": {
@@ -945,7 +945,7 @@
             "usec": 0
         },
         "row_id": 85,
-        "video": "https://www.youtube.com/watch?v=KVj3c_v97rk",
+        "video": "KVj3c_v97rk",
         "slides": null,
         "speaker": {
             "_id": {
@@ -1005,7 +1005,7 @@
         "row_id": 48,
         "long_abstract": "ZeroMQ has quite a misleading name. It is not really a classic message queuing solution at all - it is a messaging library which simplifies the task of writing high-performance and scalable distributed applications.\n\nZeroMQ abstracts the standard sockets and provides building blocks for almost any distributed scenario and topology: from classic publish-subscribe pattern between independent services to cross-thread communication inside a process, while introducing a very low overhead, compared to alternatives. It integrates well with whole range of technologies from Python and Ruby, over Java and C# to C++ and Go.\n\nThis talk will discuss various distributed/concurrent scenarios and show how ZeroMQ helps to implement appropriate solutions. Of course, the pitfalls and limitations will be discussed, too.",
         "status": "accepted",
-        "video": "https://www.youtube.com/watch?v=f6cNTSJp8Dw",
+        "video": "f6cNTSJp8Dw",
         "slides": null,
         "speaker": {
             "_id": {
@@ -1035,7 +1035,7 @@
         "row_id": 2,
         "long_abstract": "Everyone should be using Vagrant or some similar tool for local developer environment.\nStill those containers/VMs need to be configured somehow and on top of that your configuration system should be able to manage your staging and production servers as well, you could be using Puppet, Chef, Salt, shell scripts to achieve this.\nRecently a 3rd generation configuration management system has thown its hat into the ring, and that tools name is Ansible.\nThe talk will show how Ansible approaches configuration management, software deployment, remote execution and other tasks.\nWe will examine how easy it is to get up and running and manage single or multiple concurrent servers in parallel, what are the differences to Puppet, Chef etc and how to customize Ansible to your needs. \n\nJoin us for this talk and you’ll see why this award winning Python project has relevance for your work life through getting your servers under control.\n",
         "status": "accepted",
-        "video": "https://www.youtube.com/watch?v=fTTNFVEqo5w",
+        "video": "fTTNFVEqo5w",
         "slides": null,
         "speaker": {
             "_id": {
@@ -1065,7 +1065,7 @@
             "usec": 0
         },
         "row_id": 96,
-        "video": "https://www.youtube.com/watch?v=pMczf8dETHY",
+        "video": "pMczf8dETHY",
         "slides": null,
         "speaker": {
             "_id": {
@@ -1095,7 +1095,7 @@
             "usec": 0
         },
         "row_id": 77,
-        "video": "https://www.youtube.com/watch?v=1qwm5R_a5QU",
+        "video": "1qwm5R_a5QU",
         "slides": null,
         "speaker": {
             "_id": {

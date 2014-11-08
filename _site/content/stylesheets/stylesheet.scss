@@ -159,7 +159,7 @@ section.content {
             padding:15px 30px;
             border-radius:13px;
         }
-        
+
 
     }
 }
@@ -760,6 +760,11 @@ a.speaker {
       line-height: 1.5;
     }
   }
+}
+
+.talk-slides, .talk-video {
+  margin-top: 30px;
+  margin-bottom: 10px;
 }
 
 .speaker-info {
